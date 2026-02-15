@@ -1,18 +1,130 @@
-## Getting Started
+🐍 SnakeGamePro – Advanced Java Snake Game
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# 🐍 SnakeGamePro
 
-## Folder Structure
+A modern, animated Snake game built using Java Swing.  
+This project demonstrates object-oriented design, event-driven programming, file handling, and audio integration in Java.
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🎮 Overview
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+SnakeGamePro is a feature-rich desktop implementation of the classic Snake game.  
+It includes animated visuals, difficulty selection, sound effects, and persistent highscore tracking.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+The project was designed to showcase clean architecture, modular design, and real-time game logic using Java.
 
-## Dependency Management
+---
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## ✨ Features
+
+- 🎨 Animated snake body with smooth rendering
+- 🧠 Easy and Hard difficulty modes
+- 📈 Dynamic speed increase as score grows
+- 🔊 Sound effects (Game Start, Food Collection, Game Over)
+- 🏆 Persistent highscore system (file-based storage)
+- 🔄 Restart functionality
+- 🎮 Keyboard-controlled movement
+- 🧱 Grid-based rendering system
+- 💻 Built using Java Swing
+
+---
+
+## 🎮 Controls
+
+| Key | Action |
+|------|--------|
+| 1 | Start Easy Mode |
+| 2 | Start Hard Mode |
+| ⬅ Arrow | Move Left |
+| ➡ Arrow | Move Right |
+| ⬆ Arrow | Move Up |
+| ⬇ Arrow | Move Down |
+| R | Restart Game |
+
+---
+
+## 🛠 Technologies Used
+
+- **Java**
+- **Java Swing (GUI)**
+- **Java Timer (Game Loop)**
+- **Java Sound API**
+- **File I/O (Highscore Persistence)**
+- Object-Oriented Programming (OOP)
+
+---
+
+## 📂 Project Structure
+
+SnakeGamePro
+│
+├── bin
+├── resources
+│ ├── FoodSound.wav
+│ ├── GameStart.wav
+│ └── GameOver.wav
+├── highscore.txt
+└── src
+├── GameFrame.java
+├── GamePanel.java
+└── SoundManager.java
+
+
+---
+
+## ▶ How To Run
+
+1. Open terminal inside the project directory.
+2. Compile the source files:
+
+---
+javac -d bin src*.java
+
+3. Run the game:
+
+---
+
+java -cp bin GameFrame
+
+
+---
+
+## 🧠 Key Concepts Demonstrated
+
+- Event-driven programming with KeyListener
+- Real-time game loop using Swing Timer
+- Collision detection logic
+- Dynamic difficulty adjustment
+- File handling for persistent data
+- Modular class design (GameFrame, GamePanel, SoundManager)
+
+---
+
+## 🚀 Future Enhancements
+
+- Background music loop
+- Particle effects
+- Snake eye animation
+- Pause system
+- Fullscreen support
+- Online leaderboard
+- Game menu UI improvements
+
+---
+
+## 📸 Preview
+
+
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Krushna Malode**
+
+---
+
+## 📄 License
+
+This project is open-source and available for educational and personal use.
