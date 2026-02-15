@@ -115,6 +115,9 @@ java -cp bin GameFrame
 
 ## 📸 Preview
 
+## 📸 Gameplay Preview
+
+![SnakeGamePro Screenshot](screenshot.png)
 
 
 ---
